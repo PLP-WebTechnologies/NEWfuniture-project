@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-top: 30px;
+    margin-right: 300px;
+}
+nav{
+    /* border: 2px solid black; */
+    position: relative;
+    right: 350px;
+    top: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+.navicon{
+    /* border: 2px solid black; */
+    position: relative;
+    top: 40px;
+}
+.navicon a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 40px;
+    position: relative;
+    left: 5px;
+}
+
+/* SECTION 1 */
+
+.section1{
+    /* border: 2px solid red; */
+    height: 900px;
+    width: 1250px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-image: url(https://images.unsplash.com/photo-1596900779744-2bdc4a90509a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y291Y2h8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+}
+.section1con{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.section1 h2{
+    font-size: 27px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 600px) {
+    .section1 h1 {
+        font-size: 30px;
+    }
+    .section1 p {
+        font-size: 14px;
+    }
+}
+.section1 h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.section1 p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: red;
+}
+.section1 button {
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 166, 43);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.section1 button:hover{
+    background-color: black;
+}
+/* SECTION2 */
+
+ @media screen and (max-width: 768px) {
+        .section2 {
+            flex-direction: column;
+        }
+    };
+.section2a{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 700px;
+    border-radius: 30px;
+    background-image: url(https://demo.phlox.pro/shop-furniture-2/wp-content/uploads/sites/258/2020/11/Group-8049.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+}
+.section2a h1{ font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: end;
+    position: relative;
+    top: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section2a h2{ font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: end;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section2a p{
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: end;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.section2a button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 166, 43);
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+
+.section2b{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 500px;
+    background-image: url(https://demo.phlox.pro/shop-furniture-2/wp-content/uploads/sites/258/2020/11/Group-8050.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+}
+.section2b h1{ font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: end;
+    position: relative;
+    top: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section2b h2{ font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: end;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section2b p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: red;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.section2b button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 166, 43);
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+/* SECTION 3 */
+
+.section3{
+    /* border: 2PX solid black; */
+    height: 100px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* SECTION 4 */
+
+.section4{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Rating Stars */
+
+.rating{
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -70px;
+}
+.rating span{
+    color: orange;
+}
+.rating1{
+    margin-left: -100px;
+}
+
+/* SECTION 5 */
+
+.section5{
+    /* border: 2PX solid black; */
+    display: flex;
+}
+
+.section5a{
+    height: 300px;
+    width: 700px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1400492004/photo/empty-blue-wall-in-modern-and-cozy-bedroom-mock-up-interior-in-contemporary-style-free-space.jpg?s=612x612&w=0&k=20&c=Zy0fVuzf63guAKqhY3A7Wxsm37yycoU1ui5nkBTzBtg=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+}
+
+.section5a h1{ font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: end;
+    position: relative;
+    top: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section5a h1{ font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: end;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section5a p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: red;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.section5a button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 166, 43);
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+.section5b{
+    height: 300px;
+    width: 700px;
+    border-radius: 30px;
+    background-image: url(https://images.unsplash.com/photo-1604578762246-41134e37f9cc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlubmluZyUyMHRhYmxlfGVufDB8fDB8fHww);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    background-size:cover;
+
+}
+.section5b{ font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: end;
+    margin-right: 40px;
+}
+.section5b h1{ font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: end;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section5b p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: yellow;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+/* SECTION 6 */
+
+.section7{
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.section7a{
+    height: 400px;
+    width: 700px;
+    border-radius: 30px;
+    background-image:url(/sofa\ single.jpeg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    background-size:cover;
+}
+
+.section7a h1{font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    text-align: end;
+    position: relative;
+    top: 10px;
+    margin-top: 8px;
+    margin-right: 40px;
+}
+.section7a h2{font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: end;
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.section7a h3{font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    text-align: end;
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.section7a span{
+    color: orange;
+    position: absolute;
+    right: 80px;
+}
+
+.section7b{
+    height: 400px;
+    width: 700px;
+    border-radius: 30px;
+    background-image: url(/chiar\ 1.webp);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    background-size:cover;
+}
+
+.section7b h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 150px;
+    position: relative;
+    top: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.section7b h2{
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 160px;
+    position: relative;
+    top: 2px;
+    margin-top: 20px;
+    margin-right: 30px;
+     
+}
+.section7b button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 166, 43);
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.section7b1 button:hover{
+    color: black;
+}
+.section7b1{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 400px;
+    position: relative;
+    left: 160px;
+    top: 120px;
+}
+   /* section7 */
+
+.section8{
+    border: 2px solid red;
+    display: flex;
+    justify-content:space-around;
+}
+
+.section8a{
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+    background-image:url(/sofa\ double.jpeg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    background-size:cover;
+}
+.section8a h3{
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.section8a h1{
+    font-size: 40px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin-top: 9px;
+    margin-right: 40px;
+}
+.section8a button{.section8a button:hover {
+    background-color: #ff7f32; /* Lighter shade */
+    transition: background-color 0.3s ease;
+} @media screen and (max-width: 600px) {
+        .section8a button {
+            width: 100px;
+            font-size: 16px;
+            margin-left: 100px;
+        }
+    }
+    background-color: rgb(255, 166, 43);
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 170px;
+    margin-top: 20px;
+
+}
+.section8a button :hover{
+    color: blue;
+}
+.section8a span{
+    color: orange;
+    position: absolute;
+    right: 80px;
+}
+.section8a1{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 400px;
+    position: relative;
+    left: 160px;
+    top: 120px;
+}
+.section8a1 h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.section8a1 h2{
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.footer2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.footer2 h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.footer2 h2{
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.footer2 p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .section8a1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section8a1 h1 {
+        font-size: 24px;
+    }
+    .section8a1 h2 {
+        font-size: 36px;
+    }
+    .section8a1 p {
+        font-size: 16px;
+    }
+}
+.section8a1 button {
+        width: 100px;
+        font-size: 16px;
+        margin-left: 100px;
+    }
+.section8a1 button:hover {
+        background-color: #ff7f32; /* Lighter shade */
+        transition: background-color 0.3s ease;
+    }
+.section8a1 button:hover {
+        color: blue;
+    }
+.section8a1 span {
+        color: orange;
+        position: absolute;
+        right: 80px;
+    }
