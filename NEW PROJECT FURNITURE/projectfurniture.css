@@ -626,15 +626,12 @@ nav a{
         font-size: 16px;
         margin-left: 100px;
     }
-.section8a1 button:hover {
-        background-color: #ff7f32; /* Lighter shade */
-        transition: background-color 0.3s ease;
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f1f1f1;
     }
-.section8a1 button:hover {
-        color: blue;
-    }
-.section8a1 span {
-        color: orange;
-        position: absolute;
-        right: 80px;
-    }
+    
+    .footer1, .footer2 {
+        text-align: center};
